@@ -18,7 +18,7 @@ if(filter_has_var(INPUT_POST, 'crear')) {
     // Sanitizo los valores del formulario
     $nombre = filter_input(INPUT_POST, 'nombreProd', FILTER_SANITIZE_STRING);
     $nombreCorto = filter_input(INPUT_POST, 'nombreCortoProd', FILTER_SANITIZE_STRING);
-    $precio = filter_input(INPUT_POST, 'precioProd', FILTER_SANITIZE_NUMBER_FLOAT);
+    $precio = filter_input(INPUT_POST, 'precioProd', FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION);
     $familia = filter_input(INPUT_POST, 'familiaProd', FILTER_SANITIZE_STRING);
     $descripcion = filter_input(INPUT_POST, 'descripcionProd', FILTER_SANITIZE_STRING);
     
