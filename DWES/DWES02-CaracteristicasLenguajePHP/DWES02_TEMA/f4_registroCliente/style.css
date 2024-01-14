@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+form, .datos{
+    padding: 20px 40px;
+    border: 4px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 70%;
+}
+
+select {
+    width: 70%;
+}
+
+span {
+    font-weight: bold;
+}
+
+.error {
+    padding: 5px;
+    background-color: orangered;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:whitesmoke;
+    font-size: 0.7rem;
+    margin: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.campo {
+    display: flex;
+}
+
+.campo label {
+    width: 30%;
+}
+
+.campo > input, .campo select, .edades{
+    width: 70%;
+}
+
+.campo > input[type="checkbox"] {
+    width: auto;
+}
+
+
+.op-edades {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+input[type="submit"] {
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+}
+
+
+
+
+

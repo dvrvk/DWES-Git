@@ -1,0 +1,133 @@
+body {
+    backgroud-color: whitesmoke;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 50px;
+    
+}
+
+.div_img {
+    display: flex;
+    justify-items: center;
+    align-items: cener;
+}
+
+.div_img svg {
+    max-width: 300px;
+}
+
+.div_form {
+    width: 50%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #6C63FF;
+}
+
+fieldset {
+    border-color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.campo, .botones {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    filter: grayscale(20%);
+    transform: scale(1.1);
+}
+
+.btn-ok {
+    background-color: #6C63FF;
+    border: 2px solid #9089ff;
+    color: whitesmoke;
+}
+
+.btn-red {
+    background-color: #FF775A;
+    border: 2px solid #FF8970;
+    color: whitesmoke;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="number"] {
+    font-size: 20px;
+    width: 40px;
+}
+
+fieldset label {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+}
+
+td, th{
+    border-bottom: 1px solid grey;
+}
+
+.error {
+    background: orangered;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #E13D00;
+}
+
+.no_tareas {
+    text-align: center;
+    font-size: 30px;
+}
+
+.hidden{
+    display: none;
+}
+
+.exito {
+    background: #41e141;
+    color: white;
+    border: 1px solid lightgreen;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
